@@ -1,0 +1,16 @@
+DATE:- 2/2/2025:-
+--------------------------
+DIFFERENT WAYS OF FAILING THE PIPELINE ISSUES 
+---------------------------------------------
+QUESTIONS:-
+-----------------
+1. HOW DO YOU HANDLE JOB FAILURES IN A ETL PIPELINE ?
+==========================================================================================================
+--IDENTIFY THE ISSUES:-CHECK LOGS , ERROR MESSAGES, AND NOINTORING TOOLS(AZURE MONITOR, DATABRICKS LOGS)
+===========================================================================================================
+--RETRY MECHANISM :-     SETUP AUTOMATIC RETRIES FOR TRANSIENT FAILURES.
+===========================================================================================================
+--ALERTING  :-           CONFIGURE ALERTS IN ADF OR LOGIC APPS
+===========================================================================================================
+--FIX THE ROOT CAUSE:-   UPDATE HE SCRIPTS ,IMPORVE THE ERROR HANDLING , OR INCREASE RESOURCES.
+===========================================================================================================
